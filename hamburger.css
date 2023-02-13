@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: black;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+
+
+
+}
+
+#menu {
+    width: 35px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+    z-index: 100;
+
+}
+
+.bar {
+    height: 5px;
+    width: 100%;
+    background-color: aliceblue;
+    display: block;
+    border-radius: 10px;
+    transition: 0.3s ease;
+
+
+}
+
+#bar1 {
+
+    transform: translateY(-4px);
+
+}
+
+/* #bar2{
+
+    transform: translateY(4px);
+     */
+
+#bar3 {
+
+    transform: translateY(4px);
+
+}
+
+.nav li a {
+
+    color: antiquewhite;
+    text-decoration: none;
+
+
+}
+
+.nav li {
+
+    list-style: none;
+    padding: 16px 0px;
+    
+}
+
+.nav li a:hover {
+    border: 1px solid red;
+    padding: 10px 20px;
+}
+
+.icon .bar {
+    background-color: white;
+
+}
+
+.icon #bar1 {
+    transform: translateY(4px) rotate(-45deg);
+
+}
+
+.icon #bar3 {
+
+    transform: translateY(-6px) rotate(-45deg);
+}
+
+.icon #bar2 {
+
+    opacity: 0;
+
+}
+
+.nav {
+    padding: 0;
+    margin: 0 20px;
+    transition: 1s ease;
+    display: none;
+
+}
+
+.change {
+    background-color: rgb(178, 20, 184);
+    height: 100vh;
+    margin: 0;
+    position: absolute;
+    font-size: 30px;
+    top: 0;
+    z-index: -100;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width:1000px) {
+    .change {
+        width: 40%;
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+    .change {
+        width: 100%;
+    }
+
+}
+
+.mid {
+    filter: invert(100%);
+    width: 50px;
+
+}
+
+img {
+
+    margin: margin: -15px;
+    position: absolute;
+    top: -58px;
+    height: 31px;
+    margin: auto;
+    padding: 5ps;
+    padding: 0px 203px;
+    width: 525px;
+}
+
+.search {
+
+    border-radius: 12px;
+    border-color:#0b0505 ;
+    background-color: #b3b6c829;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 21px;
+    font: color rgb(137, 17, 17);
+    float: right;
+    position: absolute;
+    right: -969px;
+    top: -58px;
+    padding: -1px 18px;
+    width: 369px;
+}
+.search:hover
+{
+    background-color: rgb(25, 184, 187);
+}
